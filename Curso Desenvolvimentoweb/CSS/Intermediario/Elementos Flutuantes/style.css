@@ -1,0 +1,23 @@
+.conteudo{
+    border: 1px solid gray;
+    background: blue;
+    width: 250px;
+    height: 250px;
+    float: right ;
+}
+.conteudo2{
+    border: 1px solid gray;
+    background: red;
+    width: 200px;
+    height: 200px;
+    /*muda os conteudos para os lados*/
+    float: right;
+}
+p{
+    /*alinha os textos embaixo dos conteudos*/
+    clear: right;
+}
+#main{
+    background: green;
+    border: 5px solid;
+}

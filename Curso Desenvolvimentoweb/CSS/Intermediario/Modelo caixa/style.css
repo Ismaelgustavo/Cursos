@@ -1,0 +1,18 @@
+.conteudo{
+    /*define bordas*/
+    border: 1px solid red;
+    /*define espaçamento interno*/
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /*define a distancia de um quadrado para outro*/
+    margin-top: 20px;
+    /*define tamanho geral*/
+    width: 150px;
+}
+.conteudo2{
+    margin: 50px;
+    width: 150px;
+    border: 1px solid red;
+}

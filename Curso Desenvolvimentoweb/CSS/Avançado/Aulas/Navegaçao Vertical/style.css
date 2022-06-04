@@ -1,0 +1,32 @@
+/*ul{
+    border: 1px solid red;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    padding: 5px 20px;
+    background: url(images/seta.png) no-repeat left center;
+
+}*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;  
+    background: url(images/menu.png);
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    /*centralizar texto dentro da imagem*/
+    line-height: 40px;
+
+}
+a:hover{
+    background-position: right bottom;
+}
+

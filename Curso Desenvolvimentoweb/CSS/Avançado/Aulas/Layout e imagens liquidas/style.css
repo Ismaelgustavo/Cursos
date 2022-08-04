@@ -1,0 +1,55 @@
+body{
+    background: #f2f2f2;
+}
+#container{
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+    max-width: 960px;
+}
+#marca{
+    height: 200px;
+    width: 100%;
+    background: #9E9E9E url(images/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}
+#conteudo{
+    width: 71%;
+    float:right
+}
+#conteudoprincipal{
+    width: 63%;
+    float: left;
+}
+#conteudosecundario{
+    width: 33%;
+    float: right;
+    background: #d1d1d1;
+}
+#conteudosecundario h2,#conteudosecundario p {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#navegação{
+    width: 25%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+#rodape{
+    clear: both;
+    padding:5px;
+    background: #c4c4c4;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}

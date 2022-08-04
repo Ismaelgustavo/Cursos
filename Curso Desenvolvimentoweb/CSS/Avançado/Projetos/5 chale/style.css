@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: white;
+    background-image: url(images/bg.png);
+    margin: 15px;
+    font-family: helvetica,'Trebuchet MS', sans-serif;
+}
+#container{
+    background: #ede9cc ;
+    margin: 0 auto;
+    min-width:740px ;
+    max-width: 1180px;
+}
+    
+#topo{
+    position: relative;
+    height: 15.4em;
+    min-height: 250px;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(images/topo-imagem-principal.png);
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(images/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+}
+#menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:url(images/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    z-index: 2;
+
+}
+#conteudo-menu{
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+#locais{
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:0.7em;
+    color: #8b8448;
+}
+#locais .locais{
+    float: left;
+    line-height: 2.1em; 
+}
+a{
+     text-decoration: none;
+}
+a.reservar{
+    text-transform: uppercase;
+    background: #a29750;
+    color:#fff5b0;
+    padding: 5px 10px;
+    float:right;
+    
+}
+#lista ul li{
+    list-style: none;
+    padding-top: 10px;
+    
+}
+#lista{
+    padding-top: 15px;
+    font-size: 0.9em; 
+    float: left; 
+}
+#lista ul a{
+    color:#7a7224 ;
+}
+#lista ul a:hover{
+    background-color: #c5c199 ;
+    padding: 5px;
+}
+#mensagem{
+    float: right;
+    padding-top: 10px;
+}
+#apresentaçao{
+    
+}

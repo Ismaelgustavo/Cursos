@@ -1,0 +1,86 @@
+body{
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    background: white url(images/fundo.png) repeat-x;
+}
+#container {
+	width: 1080px;
+    margin: 0 auto;
+}
+a:link,a:visited,a:active{
+    color:  #af670a;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+#logo h1{
+    float: left;
+}
+#logo a{
+    background: url(images/logo.png) no-repeat;
+    width: 248px;
+	height: 21px;
+	text-indent:  -9999px;
+    display: block;
+    
+}
+header {
+	padding: 15px 150px;
+    height: 55px;
+    
+}
+nav ul{
+    float: right;
+    list-style: none;
+	margin: 20px;
+}
+nav ul li {
+	float: left;
+}
+nav ul li a:link{
+    text-transform: uppercase;
+     margin-right: 25px;
+	padding-bottom: 3px;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+}
+#principal{
+    padding: 0 150px 0 150px;
+    width: 1080px;
+    
+
+}
+#principal1{
+    float: left;
+}
+#principal2{
+    float: right;
+    position: absolute;
+    top: 50%;
+    transform: translate(200%, -68%);
+}
+
+#post1,#post2,#post3,#post4{
+    width: 320px;
+    height: 150px;
+    
+    
+}
+#postagens{
+    display: flex;
+    width: 680px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px 10px;
+    padding-top: 10px;
+}
+h3{
+    color: green;
+    font-size: 1.0em;
+    text-transform: uppercase;
+}
+#post3,#post4{
+    margin-top: 50px;
+}

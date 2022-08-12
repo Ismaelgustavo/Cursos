@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // E(&&) retorna verdadeiro se todas as expressões forem verdadeiras
+        // OU (||) retorna verdadeiro se pelo menos uma das expressões for verdadeira
+        // negação (!) inverte o resultado da expressão de comparação
+        // if(!(2==2))-->retorna false
+        /*
+        if(2==2 || 3>=1 || 'a' == 'b'){
+            document.write('verdadeiro')
+        }else{
+            document.write('falso')
+        }
+        */
+
+        var nota = prompt('Digite a nota do aluno:')
+        var faltas = prompt('Digite as faltas')
+        
+        var media = 7
+        var faltas_maximas = 15
+        if(nota >= media && faltas <= faltas_maximas){
+            document.write('Aprovado')
+        }else{
+            document.write('Reprovado')
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

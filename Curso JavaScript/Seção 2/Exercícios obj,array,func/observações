@@ -1,0 +1,35 @@
+OUTRAS FORMAS DE NAO ENVIAR FORMULÁRIO
+
+function meuEscopo(){
+
+    const form = document.querySelector('.form');
+    /*
+    form.onsubmit = function (evento) {
+        evento.preventDefault();
+        alert(1);
+        console.log('Foi Enviada');
+    };
+    */
+
+
+
+};
+meuEscopo();
+
+//////////////////////////////////////////////////
+
+function meuEscopo(){
+
+    const form = document.querySelector('.form');
+    
+    let contador = 1;
+    function recebeEventoForm (evento) {
+        evento.preventDefault();
+        console.log(`Form nao foi enviado ${contador}`);
+        contador++
+    }
+    
+    form.addEventListener('submit',recebeEventoForm);
+
+};
+meuEscopo();

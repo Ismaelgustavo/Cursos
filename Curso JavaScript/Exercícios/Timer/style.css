@@ -1,0 +1,25 @@
+*/{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+body{
+    background-color: midnightblue;
+}
+h2{
+    padding-top: 20px;
+}
+.relogio{
+    font-size:xx-large;
+    padding: 0;
+}
+button{
+    margin-right: 10px;
+}

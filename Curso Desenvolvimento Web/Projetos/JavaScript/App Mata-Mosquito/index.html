@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+        function play(){
+            let level = document.getElementById('nivel').value
+            window.location.href = 'jogoiniciado.html?' + level
+            console.log(level)
+        }
+
+    </script>
+</head>
+<body >
+
+    <section>
+        <div>
+            <img src="imagens/game.png" alt="">
+        </div>
+        <div>
+            <select class="form-control" id="nivel">
+                <option value="">Selecione o Nível</option>
+                <option value="1500">Fácil</option>
+                <option value="1000">Médio</option>
+                <option value="750">Difícil</option>
+            </select>
+        </div>
+        <div>
+            <button id="iniciar" onclick="play()">Iniciar</button>
+        </div>
+    </section>
+    
+
+    
+</body>
+</html>

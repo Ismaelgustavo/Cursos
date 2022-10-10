@@ -16,10 +16,19 @@ body{
 h2{
     padding-top: 20px;
 }
-.relogio{
+#relogio{
+    margin-top: -10px;
     font-size:xx-large;
     padding: 0;
+    display: inline-flex;
+    height: 10px;
+    
 }
 button{
     margin-right: 10px;
+}
+#relogio div{
+    
+    height: 40px;
+    width: 40px;
 }

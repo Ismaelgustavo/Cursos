@@ -1,0 +1,102 @@
+
+body{
+    background: url(imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+section{
+    height:90vh;    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+#iniciar{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(224, 58, 58);
+    border: none;
+    border-radius: 10px;
+}
+select{
+    height: 30px;
+
+}
+
+/* pagina jogo Iniciado */
+
+.mosquito1{
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2{
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3{
+    width: 90px;
+    height: 90px;
+}
+
+#vidas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#bloco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height:50px;
+    padding: 20px 10px;
+    background-color: rgb(202, 198, 198);
+    
+}
+
+#blocoB{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 700;
+}
+#segundos{
+    padding-right: 50px;
+}
+
+/* Game Over */
+#gameOver{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#id{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#reiniciar{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(224, 58, 58);
+    border: none;
+    border-radius: 10px;
+    margin-left: 200px;
+}

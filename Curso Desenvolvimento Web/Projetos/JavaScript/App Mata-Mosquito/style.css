@@ -1,3 +1,6 @@
+html{
+    cursor: url(imagens/mata_mosca.png),auto;
+}
 
 body{
     background: url(imagens/bg.jpg);
@@ -5,7 +8,6 @@ body{
     background-size: 100vw;
     margin: 0;
     padding: 0;
-    
     
 }
 section{
@@ -15,7 +17,6 @@ section{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
     
 }
 
@@ -78,7 +79,7 @@ select{
 }
 
 /* Game Over */
-#gameOver{
+#gameOver,#vitoria{
 
     display: flex;
     flex-direction: column;

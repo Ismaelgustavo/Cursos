@@ -3,10 +3,12 @@ const criaImg = document.createElement('img')
 
 
 
+
 let altura = 0
 let largura = 0
 let contador = 0
 vidas = 1
+let sec = 99
 
 let level = window.location.search
 level = level.replace('?','')
@@ -20,11 +22,13 @@ let timer = setInterval( function() {
         document.getElementById('img'+ vidas).src = 'imagens/coracao_vazio.png' 
         vidas++   
     }
+
 },level);
 
-if (contador === 3){
-    
+if (vidas === 3){
+    window.location.href = 'gameOver.html'
 }
+
 
 function ajustaTamanhoPalcoJogo(){
     altura = window.innerHeight        
@@ -33,6 +37,7 @@ function ajustaTamanhoPalcoJogo(){
 }
 
 ajustaTamanhoPalcoJogo()
+relogio()
 
 
 
@@ -58,6 +63,10 @@ function posiçaoAleatoriaImg(){
             contador = 0
         }
         document.body.appendChild(criaImg)
+        if (vidas === 3){
+            clearInterval(timer)
+            window.location.href = 'gameOver.html'
+        }
         
 
         
@@ -80,8 +89,17 @@ function tamanhoAleatorio(){
     }
 }
 
+//coloca relogio na tela
 
-
+function relogio (){
+    setInterval( function() {
+        sec--
+        document.getElementById('segundos').innerHTML = sec
+        if (sec === 0) {
+            window.location.href = 'vitoria.html'
+        }
+    }, 1000);
+}
 
 
 

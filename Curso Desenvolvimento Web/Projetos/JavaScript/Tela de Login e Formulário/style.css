@@ -1,0 +1,113 @@
+body{
+    background:linear-gradient(-135deg,#c850c0,#4158d0);
+    width: 90%;
+    min-width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+section{
+    width: 70%;
+    height: 90%;
+    background: white;
+    border-radius: 10px;
+    margin: 20px auto ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+
+}
+
+input{
+    width: 20x;
+    height: 50px;
+    background:#e6e6e6;
+    color:#666;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+    
+    
+}
+
+input[type='text']{
+    background-image: url(images/email_white_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 30px;
+    
+   
+}
+input[type='password']{
+    background-image: url(images/lock_white_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 30px;
+    
+    
+   
+}
+
+button{
+    height: 40px;
+    background-color: #57b846;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .4s
+
+}
+
+button:hover{
+    background-color: #666;
+    transition: all .4s
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #666 ;
+}
+
+a:hover{
+    color: #57b846;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#alertSenha, #alertEmail{
+    margin-left: 20px;
+    font-size: small;
+
+}
+
+    

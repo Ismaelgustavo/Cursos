@@ -1,0 +1,65 @@
+function criaCalculadora(){
+    return {
+        display:document.querySelector('.display'),
+        
+        inicia(){
+            this.clickBotoes()
+        },
+        
+        clickBotoes(){
+            document.addEventListener('click', e => {
+                let btn = e.target
+                if(btn.classList.contains('btn-num')){
+                    this.mostraNumeros(btn.innerText);
+                }
+
+                if(btn.classList.contains('btn-clear')){
+                    this.limpaDisplay()
+                }
+
+                if(btn.classList.contains('btn-del')){
+                    this.LimpaUm()
+                }
+                if(btn.classList.contains('btn-eq')){
+                    this.resolveConta()
+                }
+
+                
+            });
+
+        },
+
+        mostraNumeros(valor){
+            this.display.value += valor
+        },
+
+        limpaDisplay(){
+            this.display.value = ''
+        },
+
+        LimpaUm(){
+            this.display.value = this.display.value.slice(0,-1)
+        },
+
+        resolveConta(){
+            try {
+                conta = eval(conta);
+        
+                if(!conta) {
+                  alert('Conta inválida');
+                  return;
+                }
+        
+                this.display.value = String(conta);
+              } catch(e) {
+                alert('Conta inválida');
+                return;
+              }
+        },
+
+    }
+}
+
+let calculadora = criaCalculadora()
+calculadora.inicia()
+

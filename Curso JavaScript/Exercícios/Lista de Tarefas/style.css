@@ -1,0 +1,25 @@
+*/{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: auto;
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    font-size: large;
+}
+body{
+    background-color: midnightblue;
+}
+h1{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 10px;
+}

@@ -1,0 +1,26 @@
+*/{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: auto;
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: midnightblue;
+}
+h2{
+    padding-top: 20px;
+}
+input,button,#resposta{
+    margin: 30px 10px 0 20px
+}
+
+
+

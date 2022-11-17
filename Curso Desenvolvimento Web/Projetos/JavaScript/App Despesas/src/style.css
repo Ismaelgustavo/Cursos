@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    float:left;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: aqua;
+}
+#div2{
+    background-color: blue;
+    height: 100px;
+    display: none;
+}
+#div2 div{
+    margin-left: 50px;
+}
+header{
+    background-color: blue;
+    height: 80px;
+    display: block;
+}
+#menu-icon{
+    float: right;
+    color: white;
+    margin-top: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+  
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin-top: 10px;
+}
+.container{
+    margin-top: 100px;
+}
+.link:hover{
+    color:grey;
+    text-decoration: none;
+}
+.janela-modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+   
+}
+#modal{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+#btn-voltar{
+    float: right;
+    background-color: green;
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.janela-modal.abrir{
+    display: flex;
+}
+#p1{
+    font-size: x-large;
+    color: green;
+}
+
+
+

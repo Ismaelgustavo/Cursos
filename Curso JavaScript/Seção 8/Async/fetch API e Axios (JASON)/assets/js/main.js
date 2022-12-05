@@ -1,7 +1,8 @@
-//fetch('pessoas.Json')
+//fetch('pessoas.json')
  // .then(resposta => resposta.json())
- // .then(json => carregaElementosNaPagina(json))
+ // .then(json => console.log(json))
 
+ 
  axios('pessoas.json')
     .then(resposta => carregaElementosNaPagina(resposta.data))
 
@@ -16,6 +17,8 @@
       const resultado = document.querySelector('.resultado') 
       resultado.appendChild(table)
 }
+
+
   
 
 

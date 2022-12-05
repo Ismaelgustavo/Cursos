@@ -13,15 +13,15 @@ export default class ValidaCPF {
         if(this.cpfLimpo.length !== 11) return false
         //return('cheguei aqui')
         const cpfParcial = this.cpfLimpo.slice(0,-2)
-        const digito1 = this.confereDigito(cpfParcial)
-        const digito2 = this.confereDigito(cpfParcial + digito1)
+        const digito1 = ValidaCPF.confereDigito(cpfParcial)
+        const digito2 = ValidaCPF.confereDigito(cpfParcial + digito1)
 
         const cpfConferido = cpfParcial + digito1 + digito2
         return cpfConferido === this.cpfLimpo
         
     }
 
-    confereDigito(cpfParcial){
+    static confereDigito(cpfParcial){
         let total = 0
         let reverso = cpfParcial.length + 1
         
@@ -42,3 +42,5 @@ if (cpf.valida()){
 } else {
     console.log('CPF Inválido')
 }
+
+console.log('cheguei aqui')
